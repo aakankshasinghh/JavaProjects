@@ -1,0 +1,22 @@
+package Abstraction;
+
+public class testinterface {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+BMW bmw=new BMW();//object of child class
+bmw. horn();
+bmw. start();
+bmw. stop();
+bmw. accelerator();
+bmw.music();
+Car ca=new BMW();//reference of parent class
+ca. horn();
+ca. start();
+ca. stop();
+ca. accelerator();
+//ca.music();//not possible as there is no music method in car class
+//Car car =new Car();can not instantiate(make object of interface class)
+	}
+
+}
