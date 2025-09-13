@@ -1,0 +1,14 @@
+package Abstraction;
+
+public interface Car {
+// 100% abstraction(hiding complete implementation logic
+	// can have only abstract method
+	//by default abstract method
+	//no method body only method declaration
+	//no abstract kw is needed
+	public void stop();
+	public void start();
+	public void accelerator();
+	public void horn();
+	
+}
