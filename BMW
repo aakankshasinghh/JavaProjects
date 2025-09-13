@@ -1,0 +1,23 @@
+package Abstraction;
+
+public class BMW implements Car{
+	public void stop()
+	{
+		System.out.println("stop the car");
+	}
+	public void start()
+	{
+		System.out.println("start the car");
+	}
+	public void accelerator()
+	{
+		System.out.println("Speed up the car");
+	}
+	public void horn()
+	{
+		System.out.println("Beep the horn");
+	}
+	public void music() {
+		System.out.println("Play the Music");
+	}
+}
