@@ -1,0 +1,25 @@
+package Abstraction;
+
+public class testAbstraction {
+	
+	//partial abstraction
+	//hiding the implementation logic
+	//can have abstract method as well as non abstract method
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+money test=new money();
+test.Axis();
+test.Bank();//now we can access this as we have extended it and given the value.
+test.HDFC();
+test. housing();
+Loan ln=new money();
+ln.Axis();
+ln.Bank();//now we can access this as we have extended it and given the value.
+ln.HDFC();
+ln.Bank();
+//ln.housing();//can't because there is no housing method in Loan class.
+//Loan lon=new Loan();//can not instantiate(make object of abstract class)
+}
+
+}
