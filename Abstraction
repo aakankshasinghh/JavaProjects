@@ -1,0 +1,3 @@
+Abstraction is the process of hiding the implementation details of a class and exposing only the essential features to the user.
+
+It focuses on what an object does rather than how it does it.
